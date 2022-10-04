@@ -1,0 +1,5 @@
+barplot(matricePopolazionePerTitoliDiStudio[,1], col = 1:20, main = "Percentuale di persone con nessun titolo o licenza elementare",las=2, names.arg=regioniAbbreviate, ylim = c(0,15))
+barplot(matricePopolazionePerTitoliDiStudio[,2], col = 1:20, main = "Percentuale di persone con la sola licenza media",las=2, names.arg=regioniAbbreviate, ylim = c(0,45))
+barplot(matricePopolazionePerTitoliDiStudio[,3], col = 1:20, main = "Percentuale di persone con diploma professionale",las=2, names.arg=regioniAbbreviate, ylim = c(0,20))
+barplot(matricePopolazionePerTitoliDiStudio[,4], col = 1:20, main = "Percentuale di persone con la maturità",las=2, names.arg=regioniAbbreviate, ylim = c(0,45))
+barplot(matricePopolazionePerTitoliDiStudio[,5], col = 1:20, main = "Percentuale di persone con la laurea",las=2, names.arg=regioniAbbreviate, ylim = c(0,30))
